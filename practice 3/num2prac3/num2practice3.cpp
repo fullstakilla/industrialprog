@@ -18,11 +18,9 @@ int main()
         arr[i].set(a, b);
     }
 
-    cout << "Рациональные номера: " << endl;
+    cout << "Рациональные дроби: " << endl;
     for (int i = 0; i < kolvo; i++) {
-        if (b != 0) {
-            arr[i].show();
-        }
+        arr[i].show();
         cout << endl;
     }
 
